@@ -7,10 +7,10 @@ INFO --
 
 If you want to use dirty money to pay and get good money follow this:
 ```
-· Comment 14 & 15
+· Comment lines 14 & 15
 ```
 ```
-· Uncomment 16 & 17
+· Uncomment lines 16 & 17
 ```
 
 [INSTALLATION]
