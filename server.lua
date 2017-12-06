@@ -13,6 +13,8 @@ AddEventHandler('vrp_slotmachine:server:1', function(amount,a,b,c)
 	amount = tonumber(amount)
 		if (vRP.getMoney({user_id}) >= tonumber(amount)) then
 		vRP.tryPayment({user_id,amount}) -- this gives the user the money
+		-- if (vRP.getInventoryItemAmount({user_id,"dirty_money"}) >= tonumber(amount)) then
+        	-- vRP.tryGetInventoryItem({user_id,"dirty_money",amount})
 		TriggerClientEvent("vrp_slotmachine:1",source,tonumber(amount),tostring(a),tostring(b),tostring(c))
 	else
 		TriggerClientEvent('chatMessage', source, "", {0, 0, 200}, "^1No tienes dinero suficiente en la cartera!") -- this is the message u get when u got no money
