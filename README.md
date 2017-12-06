@@ -3,6 +3,13 @@ vRP_slotmachine
 
 It only uses normal money for now, might make it for black money aswell in the future.
 
+INFO --
+
+If you want to use dirty money to pay and get good money follow this:
+
+· Comment 14 & 15
+· Uncomment 16 & 17
+
 [INSTALLATION]
 
 1). Download this and put it in your resources folder
