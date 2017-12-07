@@ -5,7 +5,7 @@ It only uses normal money for now, might make it for black money aswell in the f
 
 INFO --
 
-If you want to use dirty money to pay and get good money follow this:
+If you want to use dirty money to pay and get good money do the following in server.lua
 ```
 · Comment lines 14 & 15
 ```
